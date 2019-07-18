@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  rating: 1
+  rating_image: MyString
+  financial_rating: 1.5
+  accountability_rating: 1.5
+  category: MyString
+  deductibility: MyString
+  state: MyString
+
+two:
+  name: MyString
+  url: MyString
+  rating: 1
+  rating_image: MyString
+  financial_rating: 1.5
+  accountability_rating: 1.5
+  category: MyString
+  deductibility: MyString
+  state: MyString
