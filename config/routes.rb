@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
-      resources :users, only: [:create, :new, :index, :update]
+      resources :users
       resources :charities
       resources :donations
-      post '/login', to: 'auth#create'
+
+      post '/signup', to: 'users#create'
+      post '/login', to: 'auth#login'
       get '/profile', to: 'users#profile'
       get '/fetchCharities', to: 'charities#create'
     end
